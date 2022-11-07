@@ -1,0 +1,1 @@
+hdfs dfs -cat project/output/numOfGoodDays/part-r-00000
