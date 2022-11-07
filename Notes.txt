@@ -1,1 +1,5 @@
 Accessing shared files on HDFS
+README for each folder
+Folders for cleaning data
+CSV is one step of merging the data together
+Hive warehouse for the CSVs
