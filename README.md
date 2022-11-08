@@ -1,4 +1,30 @@
 # Top-Towns-To-Take-Over-Tech
 Which American cities are the best for tech jobs?
 
-ericsson is editing readme to see if he can push to repo
+Description of folders:
+
+* IncomeData
+    - MapReduce program for processing income data + income datasets (raw and clean)
+    - submitted by Matthew
+
+* weatherData
+    - data related to weather
+    - submitted by Zhiquan
+
+* weatherProcessing
+    - MapReduce program for processing weather data
+    - submitted by Zhiquan
+
+* weatherOutput
+    - MapReduce output for processing weather data
+    - submitted by Zhiquan
+
+* rentData
+    - raw and processed rental data from Zillow
+    - Spark programs for processing that data
+    - submitted by Ericsson
+
+* joiningDataSets
+    - Spark program for joining income and rental data
+    - input + output datasets
+    - submitted by Ericsson
