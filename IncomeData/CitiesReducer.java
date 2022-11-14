@@ -12,7 +12,7 @@ import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 public class CitiesReducer extends Reducer<Text,Text,Text,Text> {
     private IntWritable result = new IntWritable();
-    ppublic void reduce(Text key, Iterable<Text> values, Context context) throws IOException, InterruptedException {
+    public void reduce(Text key, Iterable<Text> values, Context context) throws IOException, InterruptedException {
         for (Text val : values) {
             context.write(key,val);
         }  

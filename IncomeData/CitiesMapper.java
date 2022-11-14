@@ -17,11 +17,14 @@ public class CitiesMapper extends Mapper<Object, Text, Text, Text>{
     private Text word = new Text();
     public void map(Object key, Text value, Context context) throws IOException, InterruptedException {
         String str[] = value.toString().split(","); //length 17
+        String noQuotes1 = str[0].substring(1,str[0].length()-1);
+        String noQuotes2 = str[6].substring(1,str[6].length()-1);
+        String noQuotes3 = str[7].substring(1,str[7].length()-1);
         String[] cities = {"Austin","New York","Seattle","San Diego","Houston","Boston"};//could convert to list to use a different method
         for (String city:cities){
-            if(city.equals(str[0])){
-                String latlong = ","+str[6]+","+str[7];
-                context.write(new Text(str[0]),new Text(latlong));
+            if(city.equals(noQuotes1)){
+                String latlong = ","+noQuotes2+","+noQuotes3;
+                context.write(new Text(noQuotes1),new Text(latlong));
             }
         }
       }
