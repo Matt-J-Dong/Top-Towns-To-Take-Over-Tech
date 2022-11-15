@@ -32,3 +32,4 @@ Description of folders:
 ---
 * Current Status:
 We have all of our datasets, and they are processed and merged together. We are now working on setting up our formulas for calculating the score of each city, and showing those scores on a geographic heatmap on Tableau. We also plan to have Hive tables for our data as well.
+Matthew added a new dataset for latitude and longitude of the cities in our dataset, and used MapReduce to clean and process the data to be able to be easily merged with the rest of the data.
