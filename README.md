@@ -30,5 +30,5 @@ Description of folders:
     - submitted by Ericsson
 
 ---
-*Current Status:
+* Current Status:
 We have all of our datasets, and they are processed and merged together. We are now working on setting up our formulas for calculating the score of each city, and showing those scores on a geographic heatmap on Tableau. We also plan to have Hive tables for our data as well.
