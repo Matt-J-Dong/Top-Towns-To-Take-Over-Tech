@@ -24,6 +24,7 @@ public class CitiesMapper extends Mapper<Object, Text, Text, Text>{
         String[] cities = {"Austin","New York","Seattle","San Diego","Houston","Boston"};//could convert to list to use a different method
         String[] states = {"TX","NY","WA","CA","TX","MA"};
         if(noQuotes1.equals("city")){
+            noQuotes2=noQuotes2.substring(0,noQuotes2.length()-3);
             context.write(new Text(noQuotes1+","+noQuotes4+","),new Text(noQuotes2+","+noQuotes3));
         }
         for (int i =0;i<cities.length;i++){
