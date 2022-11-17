@@ -5,6 +5,7 @@ Description of folders:
 
 * IncomeData
     - MapReduce program for processing income data + income datasets (raw and clean)
+    - Also currently contains the latitude and longtitude data (raw and clean), as well as the processing MapReduce code.
     - submitted by Matthew
 
 * weatherData
