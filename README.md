@@ -3,7 +3,15 @@ Which American cities are the best for tech jobs?
 
 ### Updates since last submission:
 
-Jira board link: https://big-data-project.atlassian.net/jira/software/projects/BDP/boards/1
+* Joined weather and income/rent dataset
+    * only remaining step is to add geographic data to create heatmap
+    
+* Began Tableau visualization
+    * screenshot included in submission
+    
+
+
+**Jira board link**: https://big-data-project.atlassian.net/jira/software/projects/BDP/boards/1
 
 Description of folders:
 
