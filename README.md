@@ -1,6 +1,8 @@
 # Top-Towns-To-Take-Over-Tech
 Which American cities are the best for tech jobs?
 
+### Updates since last submission:
+
 Jira board link: https://big-data-project.atlassian.net/jira/software/projects/BDP/boards/1
 
 Description of folders:
