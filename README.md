@@ -21,15 +21,8 @@ Description of folders:
     - submitted by Matthew
 
 * weatherData
-    - data related to weather
-    - submitted by Zhiquan
-
-* weatherProcessing
-    - MapReduce program for processing weather data
-    - submitted by Zhiquan
-
-* weatherOutput
-    - MapReduce output for processing weather data
+    - input and output weather data for major cities over the recent three years
+    - MapReduce program and Scala code for processing weather data
     - submitted by Zhiquan
 
 * rentData
@@ -46,3 +39,4 @@ Description of folders:
 * Current Status:
 We have all of our datasets, and they are processed and merged together. We are now working on setting up our formulas for calculating the score of each city, and showing those scores on a geographic heatmap on Tableau. We also plan to have Hive tables for our data as well.
 Matthew added a new dataset for latitude and longitude of the cities in our dataset, and used MapReduce to clean and process the data to be able to be easily merged with the rest of the data.
+Zhiquan updated Scala code for processing the weather data to make the processing more efficient and straightforward. 
