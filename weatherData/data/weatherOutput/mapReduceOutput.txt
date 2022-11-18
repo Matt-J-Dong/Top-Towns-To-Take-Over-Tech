@@ -28,15 +28,12 @@ Chicago in 2022 is 	86
 Davis in 2020 is 	115
 Davis in 2021 is 	101
 Davis in 2022 is 	114
-Durham in 2019 is 	1
 Durham in 2020 is 	55
 Durham in 2021 is 	65
 Durham in 2022 is 	57
-Houston in 2019 is 	11
 Houston in 2020 is 	81
 Houston in 2021 is 	54
 Houston in 2022 is 	35
-Irvine in 2019 is 	12
 Irvine in 2020 is 	88
 Irvine in 2021 is 	111
 Irvine in 2022 is 	113
@@ -67,11 +64,9 @@ Providence in 2022 is 	76
 Salt Lake City in 2020 is 	1
 Salt Lake City in 2021 is 	15
 Salt Lake City in 2022 is 	24
-San Diego in 2019 is 	10
 San Diego in 2020 is 	183
 San Diego in 2021 is 	205
 San Diego in 2022 is 	161
-Santa Barbara in 2019 is 	2
 Santa Barbara in 2020 is 	50
 Santa Barbara in 2021 is 	39
 Santa Barbara in 2022 is 	64
@@ -81,7 +76,6 @@ Seattle in 2022 is 	88
 State College in 2020 is 	56
 State College in 2021 is 	34
 State College in 2022 is 	28
-Worcester in 2019 is 	3
 Worcester in 2020 is 	62
 Worcester in 2021 is 	51
 Worcester in 2022 is 	79
