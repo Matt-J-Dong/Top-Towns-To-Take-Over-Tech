@@ -1,18 +1,31 @@
 # Top-Towns-To-Take-Over-Tech
 Which American cities are the best for tech jobs?
 
+
+### Current Status:
+
+We have all of our datasets, and they are processed and merged together. We are now working on setting up our formulas for calculating a score from 0-100 for each city, and displaying those scores on a geographic heatmap on Tableau. We also plan to have Hive tables for our data, we are just running into data type issues and working through those.
+
+---
 ### Updates since last submission:
 
-* Joined weather and income/rent dataset
-    * only remaining step is to add geographic data to create heatmap
     
+* Added a geographic dataset containing latitude and longitude of the cities
+   * used MapReduce to clean and process the data to be able to be easily merged with the other datasets (kept the city names consistent)
+   
 * Began Tableau visualization
-    * screenshot included in submission
+   * bar graph overview
+   * screenshot included in submission
+   
+* Joined weather and income/rent datasets
+   * only remaining step is to add geographic data in order to create heatmap on Tableau
     
 
-
+    
+ ---   
 **Jira board link**: https://big-data-project.atlassian.net/jira/software/projects/BDP/boards/1
 
+---
 Description of folders:
 
 * IncomeData
@@ -31,12 +44,6 @@ Description of folders:
     - submitted by Ericsson
 
 * joiningDataSets
-    - Spark program for joining income and rental data
+    - Spark program for joining income, rental, and weather data
     - input + output datasets
     - submitted by Ericsson
-
----
-* Current Status:
-We have all of our datasets, and they are processed and merged together. We are now working on setting up our formulas for calculating the score of each city, and showing those scores on a geographic heatmap on Tableau. We also plan to have Hive tables for our data as well.
-Matthew added a new dataset for latitude and longitude of the cities in our dataset, and used MapReduce to clean and process the data to be able to be easily merged with the rest of the data.
-Zhiquan updated Scala code for processing the weather data to make the processing more efficient and straightforward. 
