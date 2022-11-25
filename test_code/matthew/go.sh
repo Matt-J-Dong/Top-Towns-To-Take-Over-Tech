@@ -1,0 +1,2 @@
+./delete.sh
+./run.sh
