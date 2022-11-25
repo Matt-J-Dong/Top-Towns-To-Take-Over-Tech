@@ -1,2 +1,0 @@
-./citiesDelete.sh
-./citiesRun.sh

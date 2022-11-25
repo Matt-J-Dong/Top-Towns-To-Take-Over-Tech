@@ -1,0 +1,2 @@
+./deleteClean.sh
+./runClean.sh
