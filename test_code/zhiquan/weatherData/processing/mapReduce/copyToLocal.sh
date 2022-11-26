@@ -1,0 +1,1 @@
+hadoop fs -get project/output/numOfGoodDays.txt .

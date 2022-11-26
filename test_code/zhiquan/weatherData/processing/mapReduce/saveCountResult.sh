@@ -1,0 +1,1 @@
+hdfs dfs -cp project/output/numOfGoodDays/part-r-00000 project/output/numOfGoodDays.txt

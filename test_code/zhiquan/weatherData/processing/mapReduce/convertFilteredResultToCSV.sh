@@ -1,0 +1,1 @@
+hdfs dfs -cp project/data/filteredCities/part-r-00000 project/data/filteredCities.csv
