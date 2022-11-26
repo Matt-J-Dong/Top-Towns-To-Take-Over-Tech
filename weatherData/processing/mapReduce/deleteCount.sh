@@ -1,1 +1,0 @@
-hdfs dfs -rm -r project/output/numOfGoodDays

@@ -1,1 +1,0 @@
-hdfs dfs -copyToLocal final_project/merge_geo_output data

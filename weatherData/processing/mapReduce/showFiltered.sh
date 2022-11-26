@@ -1,1 +1,0 @@
-hdfs dfs -cat project/data/filteredCities/part-r-00000
