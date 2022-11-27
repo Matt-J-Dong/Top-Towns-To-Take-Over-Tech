@@ -10,9 +10,11 @@
 # group members
 hdfs dfs -setfacl -m -R default:user:zc1548:rwx /user/evc252/shared_data
 hdfs dfs -setfacl -m -R default:user:mjd9571:rwx /user/evc252shared_data
+hdfs dfs -setfacl -m -R default:user:evc252:rwx /user/evc252shared_data
 
 hdfs dfs -setfacl -m user:zc1548:--x /user/evc252
 hdfs dfs -setfacl -m user:mjd9571:--x /user/evc252
+hdfs dfs -setfacl -m user:evc252:--x /user/evc252
 
 # graders
 
