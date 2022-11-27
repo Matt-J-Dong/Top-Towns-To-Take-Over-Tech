@@ -1,1 +1,1 @@
-./ericsson_zhiquan/average_score.sh
+./ana_code/ericsson_zhiquan/average_score.sh

@@ -3,7 +3,7 @@
 val df = spark.read.format("csv")
 .option("inferSchema", true)
 .option("header", "true")
-.load("project/data/weather.csv");
+.load("shared_data/raw/raw_weather.csv");
 
 // println("\n\n******* Original dataframe (first 2 records) ***********")
 // df.show(2) 

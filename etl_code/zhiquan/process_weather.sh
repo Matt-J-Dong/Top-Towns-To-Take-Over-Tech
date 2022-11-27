@@ -6,7 +6,7 @@ hdfs dfs -rm shared_data/clean/clean_weather.csv
 rm ~/Top-Towns-To-Take-Over-Tech/data/clean/clean_weather.csv
 
 # run spark program
-spark-shell --deploy-mode client -i process_weather.scala
+spark-shell --deploy-mode client -i etl_code/zhiquan/process_weather.scala
 # move output to shared data directory
 hdfs dfs -mv shared_data/spark_output/clean_weather/*.csv shared_data/clean/clean_weather.csv
 

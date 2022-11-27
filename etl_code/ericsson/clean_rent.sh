@@ -6,7 +6,7 @@ hdfs dfs -rm shared_data/clean/clean_rent.csv
 rm ~/Top-Towns-To-Take-Over-Tech/data/clean/clean_rent.csv
 
 # run spark program
-spark-shell --deploy-mode client -i clean_rent.scala
+spark-shell --deploy-mode client -i etl_code/ericsson/clean_rent.scala
 # move output to shared data directory
 hdfs dfs -mv shared_data/spark_output/clean_rent/*.csv shared_data/clean/clean_rent.csv
 
