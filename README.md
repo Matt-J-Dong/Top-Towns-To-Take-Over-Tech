@@ -5,7 +5,7 @@ Which American cities are the best for tech jobs?
 
 ---
 
-## Subdirectories: (Details about individual files found in READMEs of individual directories)
+## Subdirectories: *(Details about individual files found in READMEs of individual directories)?*
 1. ana_code: Contains the code used to calculate the score of each specific city.
 2. data:
     - clean: Contains all of the cleaned datasets just after being cleaned. No other processing has been done yet.
