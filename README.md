@@ -5,10 +5,10 @@ Which American cities are the best for tech jobs?
 ### Directories: (More details found in READMEs of individual directories)
 1. ana_code: *I really don't know.*
 2. data:<font size="4">
-- clean: Contains all of the cleaned datasets just after being cleaned. No other processing has been done yet.
-- joined: Contains our fully joined data, which is all of our datasets merged together into one file.
-- raw: Contains fully raw data, which we have pulled from multiple sources.
-- scored: *We don't have anything here yet oops*</font>
+clean: Contains all of the cleaned datasets just after being cleaned. No other processing has been done yet.
+joined: Contains our fully joined data, which is all of our datasets merged together into one file.
+raw: Contains fully raw data, which we have pulled from multiple sources.
+scored: *We don't have anything here yet oops*</font>
 3. data_ingest: *Do we need to put put in here lol?*
 4. etl_code: Our code for cleaning all of our data (income/weather/rent) data, and the shell scripts to go along with them. Also included are the commands used to create our hive tables.
 5. profiling_code: Our code for averaging the data of multiple years together, as well as the code used to provide scores to cities.
