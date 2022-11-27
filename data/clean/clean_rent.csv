@@ -1,0 +1,550 @@
+city,state,rent_2022-07-31,rent_2022-08-31,rent_2022-09-30
+"New York, NY",NY,3308,3327,3321
+"Los Angeles, CA",CA,2999,3013,3019
+"Chicago, IL",IL,1930,1939,1941
+"Dallas, TX",TX,1866,1876,1875
+"Houston, TX",TX,1619,1626,1627
+"Washington, DC",VA,2288,2304,2309
+"Miami, FL",FL,2896,2899,2912
+"Philadelphia, PA",PA,1828,1840,1843
+"Atlanta, GA",GA,1998,2015,2024
+"Phoenix, AZ",AZ,1960,1957,1950
+"Boston, MA",MA,2851,2876,2901
+"San Francisco, CA",CA,3306,3310,3303
+"Riverside, CA",CA,2642,2643,2647
+"Detroit, MI",MI,1485,1489,1494
+"Seattle, WA",WA,2367,2377,2368
+"Minneapolis, MN",MN,1653,1653,1651
+"San Diego, CA",CA,3146,3182,3191
+"Tampa, FL",FL,2161,2163,2167
+"Denver, CO",CO,2048,2049,2046
+"St. Louis, MO",MO,1305,1314,1315
+"Baltimore, MD",MD,1822,1821,1814
+"Charlotte, NC",NC,1850,1860,1860
+"Orlando, FL",FL,2099,2109,2102
+"San Antonio, TX",TX,1526,1531,1532
+"Portland, OR",OR,1966,1976,1979
+"Sacramento, CA",CA,2339,2346,2341
+"Las Vegas, NV",NV,1905,1892,1871
+"Pittsburgh, PA",PA,1338,1352,1351
+"Austin, TX",TX,1947,1953,1950
+"Cincinnati, OH",OH,1462,1476,1479
+"Kansas City, MO",MO,1381,1392,1399
+"Columbus, OH",OH,1497,1507,1509
+"Indianapolis, IN",IN,1507,1524,1530
+"Cleveland, OH",OH,1371,1375,1368
+"San Jose, CA",CA,3395,3424,3420
+"Nashville, TN",TN,1910,1923,1923
+"Virginia Beach, VA",VA,1652,1661,1673
+"Providence, RI",RI,2024,1993,1968
+"Jacksonville, FL",FL,1814,1820,1819
+"Milwaukee, WI",WI,1258,1272,1279
+"Oklahoma City, OK",OK,1358,1361,1373
+"Raleigh, NC",NC,1805,1828,1835
+"Memphis, TN",TN,1540,1540,1542
+"Richmond, VA",VA,1640,1658,1668
+"New Orleans, LA",LA,1570,1560,1547
+"Louisville, KY",KY,1303,1314,1325
+"Salt Lake City, UT",UT,1747,1751,1751
+"Hartford, CT",CT,1703,1708,1721
+"Buffalo, NY",NY,1280,1287,1291
+"Birmingham, AL",AL,1380,1384,1389
+"Grand Rapids, MI",MI,1514,1516,1528
+"Rochester, NY",NY,1463,1480,1471
+"Tucson, AZ",AZ,1640,1657,1659
+"Tulsa, OK",OK,1325,1330,1318
+"Fresno, CA",CA,1992,1990,2005
+"Urban Honolulu, HI",HI,2690,2681,2685
+"Omaha, NE",NE,1269,1276,1280
+"Worcester, MA",MA,1936,1946,1942
+"Bridgeport, CT",CT,2852,2855,2842
+"Greenville, SC",SC,1555,1579,1583
+"Albuquerque, NM",NM,1578,1581,1587
+"Bakersfield, CA",CA,1818,1808,1787
+"Albany, NY",NY,1424,1441,1441
+"Knoxville, TN",TN,1823,1839,1851
+"McAllen, TX",TX,1135,1117,1123
+"Baton Rouge, LA",LA,1402,1411,1402
+"North Port, FL",FL,2561,2536,2547
+"New Haven, CT",CT,1937,1943,1961
+"Columbia, SC",SC,1474,1474,1484
+"Allentown, PA",PA,1835,1840,1835
+"El Paso, TX",TX,1488,1486,1457
+"Oxnard, CA",CA,3083,3076,3122
+"Charleston, SC",SC,1910,1940,1960
+"Cape Coral, FL",FL,2178,2178,2194
+"Greensboro, NC",NC,1518,1520,1530
+"Boise City, ID",ID,1887,1889,1872
+"Stockton, CA",CA,2554,2552,2553
+"Colorado Springs, CO",CO,1910,1911,2039
+"Little Rock, AR",AR,1188,1193,1198
+"Lakeland, FL",FL,1910,1916,1912
+"Des Moines, IA",IA,1249,1256,1258
+"Akron, OH",OH,1229,1240,1236
+"Springfield, MA",MA,1534,1563,1556
+"Ogden, UT",UT,1788,1790,1770
+"Deltona, FL",FL,1969,1978,1982
+"Winston, NC",NC,1647,1649,1671
+"Madison, WI",WI,1400,1402,1399
+"Provo, UT",UT,1787,1795,1815
+"Durham, NC",NC,1724,1735,1735
+"Syracuse, NY",NY,1467,1475,1484
+"Wichita, KS",KS,990.,1000,1003
+"Toledo, OH",OH,1316,1325,1312
+"Augusta, GA",GA,1377,1388,1385
+"Palm Bay, FL",FL,2004,2018,2017
+"Jackson, MS",MS,1421,1431,1446
+"Harrisburg, PA",PA,1367,1372,1379
+"Spokane, WA",WA,1551,1548,1518
+"Chattanooga, TN",TN,1612,1606,1607
+"Scranton, PA",PA,1241,1273,1294
+"Modesto, CA",CA,2115,2140,2131
+"Fayetteville, AR",AR,1485,1508,1508
+"Lansing, MI",MI,1216,1247,1257
+"Lancaster, PA",PA,1262,1282,1276
+"Portland, ME",ME,2231,2270,2278
+"Youngstown, OH",OH,890.,905.,903.
+"Fayetteville, NC",NC,1343,1359,1365
+"Lexington, KY",KY,1324,1338,1340
+"Myrtle Beach, SC",SC,1789,1842,1886
+"Pensacola, FL",FL,1718,1739,1749
+"Port St. Lucie, FL",FL,2397,2403,2436
+"Santa Rosa, CA",CA,2727,2715,2726
+"Lafayette, LA",LA,1253,1251,1241
+"Huntsville, AL",AL,1561,1556,1542
+"Reno, NV",NV,1960,1958,1938
+"Springfield, MO",MO,1242,1232,1246
+"Visalia, CA",CA,1845,1826,1807
+"Killeen, TX",TX,1418,1426,1431
+"Asheville, NC",NC,1895,1892,1903
+"York, PA",PA,1358,1370,1362
+"Vallejo, CA",CA,2544,2538,2534
+"Santa Maria, CA",CA,4129,4182,4113
+"Salem, OR",OR,1729,1748,1771
+"Salinas, CA",CA,2630,2627,2643
+"Corpus Christi, TX",TX,1401,1413,1406
+"Mobile, AL",AL,1190,1205,1222
+"Brownsville, TX",TX,1152,1173,1189
+"Salisbury, MD",DE,1810,1770,1807
+"Reading, PA",PA,1360,1372,1420
+"Gulfport, MS",MS,1409,1448,1459
+"Manchester, NH",NH,1945,1976,1996
+"Fort Wayne, IN",IN,1179,1192,1201
+"Flint, MI",MI,1227,1238,1214
+"Anchorage, AK",AK,1790,1802,1803
+"Peoria, IL",IL,1092,1070,1064
+"Canton, OH",OH,944.,950.,960.
+"Savannah, GA",GA,1775,1812,1831
+"Naples, FL",FL,2965,2938,3040
+"Shreveport, LA",LA,1103,1104,1092
+"Beaumont, TX",TX,1120,1139,1141
+"Tallahassee, FL",FL,1336,1373,1381
+"Eugene, OR",OR,1864,1847,1818
+"Davenport, IA",IL,911.,924.,934.
+"Ocala, FL",FL,1666,1663,1670
+"Montgomery, AL",AL,1207,1218,1224
+"Hickory, NC",NC,1446,1448,1452
+"Trenton, NJ",NJ,2340,2439,2442
+"Ann Arbor, MI",MI,1996,2025,2035
+"Fort Collins, CO",CO,1885,1901,1898
+"Huntington, WV",OH,880.,884.,885.
+"Lincoln, NE",NE,1214,1214,1202
+"Rockford, IL",IL,1010,1024,1053
+"Greeley, CO",CO,1804,1799,1786
+"Gainesville, FL",FL,1598,1619,1626
+"Boulder, CO",CO,2229,2252,2263
+"Lubbock, TX",TX,1307,1306,1303
+"Spartanburg, SC",SC,1285,1286,1281
+"Green Bay, WI",WI,915.,909.,905.
+"South Bend, IN",IN,1384,1414,1394
+"Columbus, GA",GA,1196,1204,1212
+"Evansville, IN",IN,894.,901.,919.
+"Clarksville, TN",TN,1429,1444,1451
+"Roanoke, VA",VA,1307,1320,1303
+"Kingsport, TN",TN,1105,1139,1205
+"Kennewick, WA",WA,1765,1761,1764
+"Wilmington, NC",NC,1756,1782,1788
+"Olympia, WA",WA,2172,2180,2179
+"Hagerstown, MD",MD,1396,1426,1436
+"Crestview, FL",FL,2014,2040,2048
+"Duluth, MN",MN,1305,1331,1376
+"Utica, NY",NY,1204,1232,1249
+"Longview, TX",TX,1096,1129,1114
+"San Luis Obispo, CA",CA,2848,2836,2837
+"Merced, CA",CA,2034,2068,2077
+"Laredo, TX",TX,1264,1273,1292
+"Waco, TX",TX,1570,1589,1569
+"Cedar Rapids, IA",IA,1176,1172,1158
+"Sioux Falls, SD",SD,1148,1167,1159
+"Bremerton, WA",WA,2046,2062,2039
+"Santa Cruz, CA",CA,3514,3534,3565
+"Erie, PA",PA,903.,905.,952.
+"College Station, TX",TX,1253,1253,1288
+"Kalamazoo, MI",MI,1279,1274,1286
+"Amarillo, TX",TX,1315,1314,1300
+"Norwich, CT",CT,1630,1672,1692
+"Lynchburg, VA",VA,1191,1217,1243
+"Atlantic City, NJ",NJ,2194,1955,1877
+"Charleston, WV",WV,810.,797.,806.
+"Tuscaloosa, AL",AL,1422,1487,1507
+"Yakima, WA",WA,1427,1461,1463
+"Fort Smith, AR",AR,1086,1070,1076
+"Fargo, ND",ND,1077,1087,1092
+"Appleton, WI",WI,1139,1136,1160
+"Binghamton, NY",NY,1217,1479,1655
+"Tyler, TX",TX,1603,1574,1601
+"Lafayette, IN",IN,1116,1142,1168
+"Bellingham, WA",WA,1821,1820,1811
+"Topeka, KS",KS,1020,1047,1049
+"Macon, GA",GA,1163,1137,1123
+"Daphne, AL",AL,1607,1623,1627
+"Hilton Head Island, SC",SC,2411,2413,2486
+"Champaign, IL",IL,1037,1035,1025
+"Rochester, MN",MN,1486,1483,1483
+"Medford, OR",OR,2019,2016,1987
+"Las Cruces, NM",NM,1323,1338,1324
+"Burlington, VT",VT,2180,2222,2220
+"Charlottesville, VA",VA,1717,1733,1739
+"Yuma, AZ",AZ,1410,1405,1405
+"Lake Havasu City, AZ",AZ,1581,1605,1643
+"Athens, GA",GA,1557,1584,1594
+"Barnstable Town, MA",MA,2667,2655,2557
+"Chico, CA",CA,1713,1738,1745
+"Lake Charles, LA",LA,1169,1157,1139
+"Columbia, MO",MO,944.,945.,965.
+"Houma, LA",LA,1080,1172,1227
+"Gainesville, GA",GA,1706,1714,1707
+"Elkhart, IN",IN,1115,1133,1107
+"Springfield, IL",IL,962.,981.,1000
+"Johnson City, TN",TN,1374,1417,1461
+"Florence, SC",SC,1260,1280,1357
+"Jacksonville, NC",NC,1355,1387,1391
+"Hilo, HI",HI,1851,1916,2018
+"St. Cloud, MN",MN,1309,1296,1317
+"Bend, OR",OR,2333,2349,2349
+"Monroe, LA",LA,1058,1057,1082
+"Racine, WI",WI,962.,978.,978.
+"Punta Gorda, FL",FL,2560,2483,2486
+"Warner Robins, GA",GA,1419,1457,1477
+"Terre Haute, IN",IN,838.,866.,873.
+"St. George, UT",UT,1690,1720,1744
+"Billings, MT",MT,1213,1244,1252
+"Midland, TX",TX,1328,1352,1340
+"Dover, DE",DE,1574,1575,1582
+"Greenville, NC",NC,1407,1415,1438
+"Bowling Green, KY",KY,1206,1222,1222
+"El Centro, CA",CA,1265,1300,1402
+"Joplin, MO",MO,1046,1030,1015
+"Torrington, CT",CT,1589,1544,1553
+"Jackson, TN",TN,1221,1207,1218
+"Redding, CA",CA,1596,1598,1613
+"Kingston, NY",NY,1907,1908,1929
+"Yuba City, CA",CA,2381,2327,2323
+"Iowa City, IA",IA,1046,1051,1067
+"Muskegon, MI",MI,1104,1107,1124
+"Abilene, TX",TX,1030,1050,1068
+"Oshkosh, WI",WI,951.,934.,914.
+"Burlington, NC",NC,1252,1279,1304
+"Panama City, FL",FL,1789,1826,1853
+"Bloomington, IL",IL,1270,1275,1241
+"Coeur d'Alene, ID",ID,2181,2118,2099
+"East Stroudsburg, PA",PA,1767,1736,1719
+"Eau Claire, WI",WI,997.,1000,1073
+"Pueblo, CO",CO,1262,1261,1243
+"Hattiesburg, MS",MS,1361,1364,1389
+"Bloomington, IN",IN,1628,1668,1690
+"Waterloo, IA",IA,893.,913.,926.
+"Kahului, HI",HI,3156,3252,3246
+"Odessa, TX",TX,1299,1333,1335
+"Blacksburg, VA",VA,1407,1388,1420
+"Auburn, AL",AL,1621,1672,1695
+"Tupelo, MS",MS,1334,1315,1310
+"Wausau, WI",WI,869.,867.,743.
+"Janesville, WI",WI,996.,970.,965.
+"Sebastian, FL",FL,2227,2236,2170
+"State College, PA",PA,1575,1606,1595
+"Madera, CA",CA,1818,1863,1784
+"Jackson, MI",MI,1020,1058,982.
+"Chambersburg, PA",PA,1137,1135,1132
+"Grand Junction, CO",CO,1530,1579,1583
+"Idaho Falls, ID",ID,1377,1380,1374
+"Elizabethtown, KY",KY,1198,1220,1270
+"Niles, MI",MI,1570,1557,1530
+"Homosassa Springs, FL",FL,1545,1563,1540
+"Decatur, AL",AL,1041,1054,1044
+"Hanford, CA",CA,1686,1762,1812
+"Concord, NH",NH,2093,2085,2107
+"Wichita Falls, TX",TX,1276,1274,1265
+"Santa Fe, NM",NM,1810,1837,1822
+"Bangor, ME",ME,1288,1295,1304
+"Traverse City, MI",MI,1872,1774,1749
+"Alexandria, LA",LA,1593,1550,1624
+"Monroe, MI",MI,1266,1258,1252
+"Dothan, AL",AL,1362,1316,1235
+"Florence, AL",AL,1164,1195,1210
+"Valdosta, GA",GA,1452,1392,1377
+"Vineland, NJ",NJ,1713,1671,1610
+"Rocky Mount, NC",NC,1037,1054,1054
+"Albany, GA",GA,945.,939.,939.
+"Sioux City, IA",IA,1171,1183,1181
+"Rapid City, SD",SD,1471,1493,1507
+"Logan, UT",UT,1278,1233,1221
+"Morristown, TN",TN,1191,1312,1328
+"Flagstaff, AZ",AZ,2582,2567,2609
+"Winchester, VA",VA,1772,1761,1760
+"Lebanon, PA",PA,1245,1231,1268
+"Pottsville, PA",PA,1001,1041,1016
+"Morgantown, WV",WV,1346,1353,1350
+"Sumter, SC",SC,1060,1083,1099
+"The Villages, FL",FL,1858,2023,2121
+"Sherman, TX",TX,1480,1474,1489
+"Wheeling, WV",OH,880.,836.,851.
+"La Crosse, WI",WI,1155,1174,1190
+"Hammond, LA",LA,1365,1403,1337
+"Napa, CA",CA,3279,3299,3291
+"Harrisonburg, VA",VA,1382,1407,1460
+"Jonesboro, AR",AR,1238,1236,1239
+"Carbondale, IL",IL,942.,958.,991.
+"Eureka, CA",CA,1353,1400,1426
+"Springfield, OH",OH,747.,789.,797.
+"Battle Creek, MI",MI,1170,1212,1187
+"Albany, OR",OR,1741,1817,1874
+"Mount Vernon, WA",WA,2653,2287,2315
+"Manhattan, KS",KS,1085,1097,1101
+"Bismarck, ND",ND,892.,904.,914.
+"Johnstown, PA",PA,754.,761.,765.
+"Sierra Vista, AZ",AZ,1273,1252,1280
+"Lawton, OK",OK,961.,979.,981.
+"Jamestown, NY",NY,852.,964.,929.
+"Cleveland, TN",TN,1391,1369,1360
+"Pittsfield, MA",MA,1492,1483,1509
+"Ames, IA",IA,988.,993.,991.
+"Staunton, VA",VA,1189,1196,1225
+"Glens Falls, NY",NY,1007,1025,1040
+"Goldsboro, NC",NC,1124,1100,1147
+"Farmington, NM",NM,1373,1412,1367
+"New Bern, NC",NC,1398,1397,1412
+"Augusta, ME",ME,1342,1308,1347
+"San Angelo, TX",TX,1353,1368,1391
+"St. Joseph, MO",MO,812.,851.,842.
+"Lawrence, KS",KS,1332,1313,1341
+"Missoula, MT",MT,1632,1641,1626
+"Wenatchee, WA",WA,1764,1804,1811
+"Altoona, PA",PA,1007,992.,1025
+"Mansfield, OH",OH,1576,1595,1589
+"Owensboro, KY",KY,1207,1272,1349
+"Brunswick, GA",GA,1722,1712,1753
+"Bozeman, MT",MT,2655,2666,2624
+"Wooster, OH",OH,1156,1216,1250
+"Cookeville, TN",TN,1560,1550,1575
+"Sheboygan, WI",WI,782.,775.,782.
+"Weirton, WV",OH,831.,811.,749.
+"Beckley, WV",WV,946.,981.,1026
+"California, MD",MD,1596,1608,1597
+"Anniston, AL",AL,997.,1046,1115
+"Muncie, IN",IN,935.,955.,933.
+"Williamsport, PA",PA,902.,902.,942.
+"Twin Falls, ID",ID,1452,1475,1514
+"Show Low, AZ",AZ,1834,1945,1985
+"Roseburg, OR",OR,1497,1500,1703
+"Michigan City, IN",IN,1043,1061,1037
+"Kankakee, IL",IL,1166,1187,1173
+"Lewiston, ME",ME,1319,1229,1266
+"Richmond, KY",KY,916.,899.,895.
+"Watertown, NY",NY,1325,1334,1352
+"Ogdensburg, NY",NY,1066,1012,870.
+"Sebring, FL",FL,1375,1392,1399
+"Tullahoma, TN",TN,1385,1395,1446
+"Kalispell, MT",MT,2308,2316,2396
+"Bluefield, WV",VA,614.,676.,586.
+"Whitewater, WI",WI,1432,1371,1418
+"Pinehurst, NC",NC,1765,1752,1738
+"LaGrange, GA",GA,1317,1327,1343
+"Decatur, IL",IL,1027,1088,1120
+"Fond du Lac, WI",WI,929.,909.,936.
+"Mankato, MN",MN,1335,1331,1382
+"Bay City, MI",MI,1146,1126,1151
+"Gadsden, AL",AL,1006,1000,1130
+"Lima, OH",OH,714.,769.,772.
+"Ithaca, NY",NY,1723,1610,1581
+"Cheyenne, WY",WY,1172,1180,1173
+"Grand Forks, ND",MN,797.,801.,806.
+"Hot Springs, AR",AR,1261,1328,1325
+"Truckee, CA",CA,3232,2963,2946
+"Victoria, TX",TX,1004,1025,1010
+"Moses Lake, WA",WA,1411,1404,1456
+"Shelby, NC",NC,1178,1150,1200
+"Dubuque, IA",IA,1003,1016,1016
+"Cumberland, MD",MD,995.,987.,956.
+"Pocatello, ID",ID,1128,1108,1119
+"Paducah, KY",KY,876.,1100,1288
+"Fairbanks, AK",AK,1657,1641,1657
+"Corning, NY",NY,1419,1420,1390
+"Corvallis, OR",OR,1656,1693,1708
+"Clarksburg, WV",WV,856.,872.,871.
+"Hermiston, OR",OR,1389,1231,1142
+"Parkersburg, WV",WV,869.,847.,847.
+"Grants Pass, OR",OR,1398,1387,1303
+"Beaver Dam, WI",WI,887.,885.,858.
+"Pine Bluff, AR",AR,859.,930.,828.
+"Zanesville, OH",OH,834.,832.,799.
+"Oak Harbor, WA",WA,1893,1885,1869
+"New Castle, PA",PA,788.,737.,783.
+"Watertown, WI",WI,1072,1027,1054
+"Columbus, IN",IN,1398,1381,1384
+"Athens, TX",TX,1081,1212,1224
+"Meadville, PA",PA,905.,837.,819.
+"Indiana, PA",PA,1181,1395,1565
+"Midland, MI",MI,1515,1546,1532
+"Hinesville, GA",GA,1550,1573,1551
+"Bloomsburg, PA",PA,976.,960.,974.
+"Kokomo, IN",IN,813.,819.,814.
+"Helena, MT",MT,1361,1406,1445
+"Stillwater, OK",OK,1078,1084,1055
+"Great Falls, MT",MT,973.,975.,975.
+"Statesboro, GA",GA,1018,1031,1042
+"Casper, WY",WY,1234,1225,1227
+"Seneca, SC",SC,1447,1495,1474
+"Talladega, AL",AL,1291,1295,1302
+"Warsaw, IN",IN,1478,1527,1542
+"Manitowoc, WI",WI,806.,780.,795.
+"Searcy, AR",AR,791.,814.,803.
+"DuBois, PA",PA,868.,875.,919.
+"Glenwood Springs, CO",CO,8663,9060,9005
+"Port Angeles, WA",WA,1481,1449,1570
+"Heber, UT",UT,3696,3726,4296
+"Minot, ND",ND,868.,870.,880.
+"Keene, NH",NH,1617,1687,1729
+"Jefferson, GA",GA,2060,2078,2089
+"Auburn, NY",NY,988.,1012,1038
+"Aberdeen, WA",WA,1281,1311,1289
+"Findlay, OH",OH,1300,1290,1370
+"Grand Island, NE",NE,825.,830.,843.
+"Danville, IL",IL,610.,603.,619.
+"Quincy, IL",IL,537.,550.,548.
+"Frankfort, KY",KY,737.,748.,756.
+"Key West, FL",FL,3817,3903,3795
+"Sandusky, OH",OH,1125,1275,1271
+"Lake City, FL",FL,1389,1516,1514
+"Huntsville, TX",TX,1184,1154,1217
+"Hobbs, NM",NM,1142,1137,1139
+"Stevens Point, WI",WI,1061,1098,1101
+"Greeneville, TN",TN,968.,1000,1100
+"Morehead City, NC",NC,1514,1544,1672
+"Mount Pleasant, MI",MI,1136,1150,1317
+"Shelton, WA",WA,1817,1900,1743
+"Alamogordo, NM",NM,1439,1406,1455
+"Muskogee, OK",OK,763.,747.,756.
+"Faribault, MN",MN,1381,1373,1378
+"Marquette, MI",MI,1437,1399,1425
+"Richmond, IN",IN,773.,798.,792.
+"Athens, OH",OH,872.,852.,981.
+"Marion, IN",IN,514.,560.,587.
+"Nacogdoches, TX",TX,967.,970.,989.
+"Roswell, NM",NM,1442,1466,1436
+"Red Bluff, CA",CA,1627,1600,1543
+"Clearlake, CA",CA,1652,1721,1777
+"Albemarle, NC",NC,1322,1325,1376
+"Marinette, WI",WI,755.,750.,754.
+"Sanford, NC",NC,1518,1537,1467
+"Hutchinson, KS",KS,757.,770.,768.
+"Crossville, TN",TN,1409,1537,1584
+"Laconia, NH",NH,1917,2050,1810
+"Walla Walla, WA",WA,1416,1400,1456
+"Gillette, WY",WY,1087,1074,1108
+"Enid, OK",OK,991.,1010,1023
+"Sayre, PA",PA,877.,891.,914.
+"Marietta, OH",OH,996.,1075,1092
+"Salina, KS",KS,824.,824.,836.
+"Hudson, NY",NY,2563,2426,2473
+"Starkville, MS",MS,997.,1052,1066
+"Fergus Falls, MN",MN,828.,892.,959.
+"Oneonta, NY",NY,1535,1469,1422
+"Ardmore, OK",OK,900.,983.,1101
+"Carlsbad, NM",NM,1473,1836,1826
+"Fernley, NV",NV,1950,1870,1829
+"Columbus, MS",MS,1401,1438,1433
+"Cullowhee, NC",NC,1006,1058,977.
+"Palestine, TX",TX,581.,615.,651.
+"Gaffney, SC",SC,951.,895.,895.
+"Cedar City, UT",UT,1399,1407,1284
+"Durango, CO",CO,2114,2117,2100
+"Branson, MO",MO,1249,1250,1296
+"Carson City, NV",NV,1833,1829,1753
+"Fairmont, WV",WV,928.,995.,1155
+"St. Marys, GA",GA,1533,1555,1519
+"Edwards, CO",CO,3966,4072,3685
+"Sonora, CA",CA,1892,1873,1977
+"Oxford, MS",MS,1444,1526,1573
+"Warrensburg, MO",MO,776.,773.,780.
+"Elizabeth City, NC",NC,1376,1436,1452
+"Milledgeville, GA",GA,1294,1350,1279
+"Rexburg, ID",ID,1120,1122,1146
+"Ashland, OH",OH,788.,800.,842.
+"Enterprise, AL",AL,1244,1249,1248
+"Jacksonville, TX",TX,1180,1150,1135
+"Kerrville, TX",TX,1871,1866,1849
+"Fort Leonard Wood, MO",MO,881.,900.,918.
+"Bartlesville, OK",OK,1050,1041,1043
+"Corsicana, TX",TX,1178,1226,1235
+"Winona, MN",MN,1040,1150,1131
+"Oil City, PA",PA,1361,1194,1169
+"Ellensburg, WA",WA,1943,1992,2052
+"Gardnerville Ranchos, NV",NV,2886,2980,3008
+"Del Rio, TX",TX,1489,1437,1641
+"Tahlequah, OK",OK,971.,972.,1052
+"Ozark, AL",AL,1298,1111,1040
+"Clovis, NM",NM,1036,1045,1038
+"Montrose, CO",CO,1886,1860,1792
+"New Castle, IN",IN,777.,785.,792.
+"Fort Polk South, LA",LA,1233,1211,1229
+"Norfolk, NE",NE,1150,1158,1175
+"Ca-¦on City, CO",CO,1148,1174,1207
+"Blackfoot, ID",ID,1236,1250,1259
+"Cortland, NY",NY,1315,1326,1246
+"Mount Sterling, KY",KY,697.,675.,685.
+"Sandpoint, ID",ID,2860,2718,2500
+"Ruston, LA",LA,1089,1092,1109
+"Menomonie, WI",WI,772.,762.,779.
+"Bellefontaine, OH",OH,1159,1014,1051
+"Rolla, MO",MO,1045,1100,1069
+"Thomasville, GA",GA,1154,1200,1169
+"Lewisburg, PA",PA,1299,1323,1301
+"Big Rapids, MI",MI,785.,895.,1082
+"Freeport, IL",IL,672.,673.,713.
+"Ponca City, OK",OK,673.,747.,754.
+"Stephenville, TX",TX,1596,1597,1555
+"Gainesville, TX",TX,1350,1432,1536
+"Moscow, ID",ID,1130,1102,1238
+"Astoria, OR",OR,1768,1784,1789
+"Bradford, PA",PA,867.,872.,890.
+"Marshalltown, IA",IA,1072,1112,1152
+"Riverton, WY",WY,945.,955.,956.
+"Murray, KY",KY,1036,1018,1045
+"Laramie, WY",WY,1039,1048,1063
+"Warren, PA",PA,511.,740.,1033
+"Hannibal, MO",MO,390.,850.,1114
+"Williston, ND",ND,963.,960.,967.
+"Ada, OK",OK,879.,841.,820.
+"Crawfordsville, IN",IN,894.,874.,902.
+"DeRidder, LA",LA,1109,1100,1134
+"Bay City, TX",TX,1283,1300,1425
+"Jackson, WY",WY,4558,7541,6545
+"Emporia, KS",KS,678.,734.,806.
+"Brookings, SD",SD,762.,756.,767.
+"North Platte, NE",NE,664.,673.,675.
+"Butte, MT",MT,1099,1056,1086
+"Brevard, NC",NC,1913,1925,1939
+"Breckenridge, CO",CO,3728,3766,3836
+"Kirksville, MO",MO,637.,642.,639.
+"Weatherford, OK",OK,866.,862.,893.
+"Mountain Home, ID",ID,1401,1405,1490
+"Silver City, NM",NM,802.,750.,776.
+"Fredericksburg, TX",TX,1518,1500,1455
+"The Dalles, OR",OR,1644,1710,1863
+"Great Bend, KS",KS,645.,625.,633.
+"Steamboat Springs, CO",CO,3338,3387,3244
+"Altus, OK",OK,810.,750.,821.
+"Hood River, OR",OR,2573,2575,2617
+"Jamestown, ND",ND,729.,771.,795.
+"Portales, NM",NM,832.,850.,840.

@@ -2,8 +2,8 @@
 
 # data ingest
 echo "data ingest"
-./data_ingest/set_permissions.sh
-./data_ingest/upload_raw_data_to_hdfs.sh
+# ./data_ingest/set_permissions.sh
+# ./data_ingest/upload_raw_data_to_hdfs.sh
 
 # etl
 echo "etl"

@@ -16,7 +16,8 @@ val data_dir = "shared_data/clean/";
 
 val rent = spark.read.option("header", "true").csv(data_dir + "clean_rent.csv");
 val income = spark.read.option("header", "true").csv(data_dir + "clean_income.csv");
-val weather = spark.read.option("header", "true").csv(data_dir + "clean_weather.csv");
+val weather = spark.read.option("header", "true").csv(data_dir + "clean_weather.csv")
+.withColumnRenamed("name", "city");
 val geo = spark.read.option("header", "true").csv(data_dir + "clean_geo.csv")
 .drop(col("state"));
 
@@ -24,7 +25,7 @@ val join_df = rent
 // join income
 .join(income, Seq("city"), "inner")
 // join weather
-.join(weather, Seq("city", "state"), "inner");
+.join(weather, Seq("city"), "inner")
 // join geo
 .join(geo, Seq("city"), "inner");
 
