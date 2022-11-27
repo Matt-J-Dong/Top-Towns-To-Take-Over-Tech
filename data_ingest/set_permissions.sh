@@ -8,8 +8,8 @@
 # so shared_data, a subdirectory, can be accessed
 
 # group members
-h -setfacl -m -R default:user:zc1548:rwx /user/evc252/shared_data
-h -setfacl -m -R default:user:mjd9571:rwx /user/evc252shared_data
+hdfs dfs -setfacl -m -R default:user:zc1548:rwx /user/evc252/shared_data
+hdfs dfs -setfacl -m -R default:user:mjd9571:rwx /user/evc252shared_data
 
 hdfs dfs -setfacl -m user:zc1548:--x /user/evc252
 hdfs dfs -setfacl -m user:mjd9571:--x /user/evc252
