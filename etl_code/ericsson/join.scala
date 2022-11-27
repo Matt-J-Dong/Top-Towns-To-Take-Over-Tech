@@ -16,7 +16,7 @@ val data_dir = "shared_data/clean/";
 
 val rent = spark.read.option("header", "true").csv(data_dir + "clean_rent.csv");
 val income = spark.read.option("header", "true").csv(data_dir + "clean_income.csv");
-// --- WAITING ON WEATHER TO BE ADDED --- val weather = spark.read.option("header", "true").csv(data_dir + "clean_weather.csv");
+val weather = spark.read.option("header", "true").csv(data_dir + "clean_weather.csv");
 val geo = spark.read.option("header", "true").csv(data_dir + "clean_geo.csv")
 .drop(col("state"));
 
@@ -24,12 +24,12 @@ val join_df = rent
 // join income
 .join(income, Seq("city"), "inner")
 // join weather
-// --- WAITING ON WEATHER TO BE ADDED --- .join(weather, Seq("city", "state"), "inner");
+.join(weather, Seq("city", "state"), "inner");
 // join geo
 .join(geo, Seq("city"), "inner");
 
 // write to hdfs
-join_df.coalesce(1).write.option("header", "true").csv("final_project/join_output");
+join_df.coalesce(1).write.option("header", "true").csv("shared_data/spark_output/joined");
 
 // exit Spark shell
 System.exit(0);

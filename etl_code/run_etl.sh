@@ -1,7 +1,7 @@
 # combined shell script for running all etl
 
-./ericsson/run_clean_rent.sh
-# other cleaning scripts here...
+./ericsson/clean_rent.sh
+./zhiquan/process_weather.sh
 # -------
 # -------
-./ericsson/run_join.sh
+./ericsson/join.sh

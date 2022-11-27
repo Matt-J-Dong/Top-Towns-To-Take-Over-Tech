@@ -1,0 +1,1 @@
+./ericsson_zhiquan/average_score.sh

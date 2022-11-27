@@ -44,7 +44,7 @@ val clean_df = new_df
 );
 
 // write to hdfs
-clean_df.write.option("header", "true").csv("final_project/clean_rent_output");
+clean_df.write.option("header", "true").csv("shared_data/spark_output/clean_rent");
 
 // exit spark shell
 System.exit(0);
