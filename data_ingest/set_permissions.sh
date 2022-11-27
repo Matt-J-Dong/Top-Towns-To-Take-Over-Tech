@@ -1,8 +1,7 @@
-
-
-
-# setting default permissions recursively for all users
-# that need access to shared_data directory in hdfs
+# **********************************************************
+# -- Sets default permissions recursively for all users --
+#    that need access to shared_data directory in hdfs
+# **********************************************************
 
 # also gives executable access to parent directory
 # so shared_data, a subdirectory, can be accessed
