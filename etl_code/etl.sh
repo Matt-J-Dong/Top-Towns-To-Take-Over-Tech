@@ -2,7 +2,7 @@
 
 # cleaning scripts
 # ./etl_code/ericsson/clean_rent.sh
-# ./etl_code/zhiquan/process_weather.sh
+./etl_code/zhiquan/process_weather.sh
 
 # # NOTE: have to run matthew's MR program from etl_code/matthew directory
 # cd etl_code/matthew

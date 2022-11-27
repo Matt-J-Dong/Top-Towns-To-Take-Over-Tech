@@ -16,7 +16,7 @@ import org.apache.spark.sql.functions._
 val df = spark.read.format("csv")
 .option("inferSchema", true)
 .option("header", "true")
-.load("shared_data/raw/raw_rent.csv");
+.load("/user/evc252/shared_data/raw/raw_rent.csv");
 
 // drop all but last few months of rental data
 // also drop any rows with null values
@@ -44,7 +44,7 @@ val clean_df = new_df
 );
 
 // write to hdfs
-clean_df.write.option("header", "true").csv("shared_data/spark_output/clean_rent");
+clean_df.write.option("header", "true").csv("/user/evc252/shared_data/spark_output/clean_rent");
 
 // exit spark shell
 System.exit(0);

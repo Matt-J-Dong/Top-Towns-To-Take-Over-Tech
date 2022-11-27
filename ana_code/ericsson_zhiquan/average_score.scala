@@ -2,7 +2,7 @@ import org.apache.spark.sql.functions._
 import org.apache.spark.sql.Row
 import org.apache.spark.sql.expressions.Window
 
-val data_dir = "shared_data/joined/";
+val data_dir = "/user/evc252/shared_data/joined/";
 val data = spark.read.option("header", "true").csv(data_dir + "rent_income_weather_geo.csv");
 
 
@@ -23,12 +23,12 @@ val df1 = data.withColumn(
 // ---------- AVERAGE RENT ----------- \\
 
 val df2 = df1.withColumn(
-    "average_rent", ((col("median_rent_2022-07-31") + col("median_rent_2022-08-31") + col("median_rent_2022-09-30")) / 3).cast("int")
+    "average_rent", ((col("rent_2022-07-31") + col("rent_2022-08-31") + col("rent_2022-09-30")) / 3).cast("int")
 )
 .drop(
-    "median_rent_2022-07-31",
-    "median_rent_2022-08-31",
-    "median_rent_2022-09-30"
+    "rent_2022-07-31",
+    "rent_2022-08-31",
+    "rent_2022-09-30"
 )
 
 // println("\n\n******* Average Rent And Weather ***********")
@@ -74,14 +74,14 @@ val df4 = df3.withColumn("row_number", row_number().over(w)).withColumnRenamed("
 // println("***************************************************\n");
 
 // rearrange the columns' positions
-val df5 = df4.select("rank","city","state","income","average_good_days", "average_rent", "lat", "lng", "score");
+val df5 = df4.select("rank","city","state","income","average_good_days", "average_rent", "lat", "long", "score");
 
 // println("******* After Rearrange The Columns' positions ***********")
 // df5.show()
 // println("***************************************************\n");
 
 // write to .csv in one part (one file)
-df5.coalesce(1).write.option("header", "true").csv("shared_data/spark_output/score");
+df5.coalesce(1).write.option("header", "true").csv("/user/evc252/shared_data/spark_output/scored");
 
 // exit spark shell
 System.exit(0);

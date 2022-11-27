@@ -3,7 +3,7 @@
 val df = spark.read.format("csv")
 .option("inferSchema", true)
 .option("header", "true")
-.load("shared_data/raw/raw_weather.csv");
+.load("/user/evc252/shared_data/raw/raw_weather.csv");
 
 // println("\n\n******* Original dataframe (first 2 records) ***********")
 // df.show(2) 
@@ -61,9 +61,9 @@ val df8 = df7.groupBy("name").sum("2020", "2021", "2022");
 
 
 // Update the column names
-val df9 = df8.withColumnRenamed("sum(2020)","2020");
-val df10 = df9.withColumnRenamed("sum(2021)","2021");
-val df11 = df10.withColumnRenamed("sum(2022)","2022");
+val df9 = df8.withColumnRenamed("sum(2020)","num_of_good_days_2020");
+val df10 = df9.withColumnRenamed("sum(2021)","num_of_good_days_2021");
+val df11 = df10.withColumnRenamed("sum(2022)","num_of_good_days_2022");
 
 // println("******* After the final reduce by the sum of year columns columns ***********");
 
@@ -71,6 +71,6 @@ val df11 = df10.withColumnRenamed("sum(2022)","2022");
 // println("***************************************************\n");
 
 // write to hdfs
-df11.coalesce(1).write.option("header", "true").csv("shared_data/spark_output/clean_weather");
+df11.coalesce(1).write.option("header", "true").csv("/user/evc252/shared_data/spark_output/clean_weather");
 
 System.exit(0);
