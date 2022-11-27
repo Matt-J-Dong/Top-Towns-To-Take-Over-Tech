@@ -13,11 +13,11 @@ name,num_of_good_days_2020,num_of_good_days_2021,num_of_good_days_2022
 "Boston, MA",69,81,83
 "Milwaukee, WI",97,89,78
 "Houston, TX",80,53,38
-"Mesa, AZ",16,9,7
 "Nashville, TN",85,84,76
+"Mesa, AZ",16,9,7
 "San Francisco, CA",68,64,47
-"Los Angeles, CA",45,70,128
 "Arlington, TX",75,89,48
+"Los Angeles, CA",45,70,128
 "Dallas, TX",92,53,18
 "San Jose, CA",85,68,65
 "El Paso, TX",14,16,28
