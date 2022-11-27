@@ -1,1 +1,0 @@
-The shell scripts to upload the raw datasets onto the shared HDFS

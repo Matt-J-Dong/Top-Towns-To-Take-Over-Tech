@@ -1,0 +1,1 @@
+./ana_code/ericsson_zhiquan/average_score.sh

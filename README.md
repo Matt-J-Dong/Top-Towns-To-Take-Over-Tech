@@ -2,7 +2,10 @@
 Which American cities are the best for tech jobs?
 ![Our diagram showcasing our pipelines and processes](diagram.png)
 **Jira board link**: <https://big-data-project.atlassian.net/jira/software/projects/BDP/boards/1>
-## Subdirectories: (Details about individual files found in READMEs of individual directories)
+
+---
+
+## Subdirectories: *(Details about individual files found in READMEs of individual directories)?*
 1. ana_code: Contains the code used to calculate the score of each specific city.
 2. data:
     - clean: Contains all of the cleaned datasets just after being cleaned. No other processing has been done yet.
@@ -20,7 +23,7 @@ Which American cities are the best for tech jobs?
     - zhiquan: *This would be the code that contains the code used to give final scores to each city based on our specific criteria of ratio of income to rent, and the number of good days that city has?*.
 6. screenshots: Contains all the screenshots needed to showcase our analytic in the process of running.
 7. test_code: Contains old code that is not used in the final version of the project, sorted by person. Each subfolder contains old code,shell scripts, and data.
-
+---
 ### Running the code:
 - The necessary building for all of the code is included within the shell scripts used to run the code.
 - We have made running the code very simple. All you need to do is go into the first level subdirectories and use the run shell scripts located in each of them.

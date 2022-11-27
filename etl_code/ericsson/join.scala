@@ -12,24 +12,26 @@ into a single dataframe and then exported to a csv file.
 
 import org.apache.spark.sql.functions._
 
-val data_dir = "shared_data/clean/";
+val data_dir = "/user/evc252/shared_data/clean/";
 
 val rent = spark.read.option("header", "true").csv(data_dir + "clean_rent.csv");
 val income = spark.read.option("header", "true").csv(data_dir + "clean_income.csv");
-// --- WAITING ON WEATHER TO BE ADDED --- val weather = spark.read.option("header", "true").csv(data_dir + "clean_weather.csv");
+val weather = spark.read.option("header", "true").csv(data_dir + "clean_weather.csv")
+.withColumnRenamed("name", "city");
 val geo = spark.read.option("header", "true").csv(data_dir + "clean_geo.csv")
+.toDF("city", "state", "lat", "long")
 .drop(col("state"));
 
 val join_df = rent
 // join income
 .join(income, Seq("city"), "inner")
 // join weather
-// --- WAITING ON WEATHER TO BE ADDED --- .join(weather, Seq("city", "state"), "inner");
+.join(weather, Seq("city"), "inner")
 // join geo
 .join(geo, Seq("city"), "inner");
 
 // write to hdfs
-join_df.coalesce(1).write.option("header", "true").csv("final_project/join_output");
+join_df.coalesce(1).write.option("header", "true").csv("/user/evc252/shared_data/spark_output/joined");
 
 // exit Spark shell
 System.exit(0);
