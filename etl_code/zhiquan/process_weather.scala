@@ -72,3 +72,5 @@ val df11 = df10.withColumnRenamed("sum(2022)","2022");
 
 // write to hdfs
 df11.coalesce(1).write.option("header", "true").csv("shared_data/spark_output/clean_weather");
+
+System.exit(0);
