@@ -2,7 +2,9 @@
 Which American cities are the best for tech jobs?
 ![Our diagram showcasing our pipelines and processes](diagram.png)
 **Jira board link**: <https://big-data-project.atlassian.net/jira/software/projects/BDP/boards/1>
+
 ---
+
 ## Subdirectories: (Details about individual files found in READMEs of individual directories)
 1. ana_code: Contains the code used to calculate the score of each specific city.
 2. data:
