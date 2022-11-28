@@ -21,8 +21,8 @@ public class CleanGeoMapper extends Mapper<Object, Text, Text, Text>{
         String noQuotes2 = str[6].substring(1,str[6].length()-1);
         String noQuotes3 = str[7].substring(1,str[7].length()-1);
         String noQuotes4 = str[2].substring(1,str[2].length()-1);
-        String[] cities = {"New York","Dallas","Houston","Colorado Springs"};//could convert to list to use a different method
-        String[] states = {"TX","NY","WA","CA","TX","MA"};
+        //String[] cities = {"New York","Dallas","Houston","Colorado Springs"};//could convert to list to use a different method
+        //String[] states = {"TX","NY","WA","CA","TX","MA"};
         if(noQuotes1.equals("city")){
             noQuotes4=noQuotes4.substring(0,noQuotes4.length()-3);
             context.write(new Text(noQuotes1+","+noQuotes4+","),new Text(noQuotes2+","+noQuotes3));
