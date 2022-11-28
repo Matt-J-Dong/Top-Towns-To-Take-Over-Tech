@@ -12,7 +12,7 @@ Which American cities are the best for tech jobs?
     - joined: Contains our fully joined data, which is all of our datasets merged together into one file.
     - raw: Contains fully raw data, which we have pulled from multiple sources.
     - scored: *We don't have anything here yet oops*
-3. data_ingest: *Contains the script used to give permissions to the rest of the group to modify the hdfs data we are storing together in Ericsson's directory.*
+3. data_ingest: Contains the shell scripts we used to put data into HDFS and provide permissions for the group to put data into HDFS in Ericsson's directory.
 4. etl_code: Our code for cleaning all of our data (income/weather/rent) data, and the shell scripts to go along with them. Also included are the commands used to create our hive tables.
     - ericsson: Contains the code used to clean the rent data and merge the different datasets together into our final joined dataset.
     - matthew: Contains the code used to clean the geographic data, count the number of records in both the income and geographic datasets, and the commands used to input our datasets into Hive.
@@ -26,5 +26,5 @@ Which American cities are the best for tech jobs?
 ---
 ### Running the code:
 - The necessary building for all of the code is included within the shell scripts used to run the code.
-- We have made running the code very simple. All you need to do is run run.sh located in the main directory.
+- We have made running the code very simple. All you need to do is run run.sh located in the main directory. The exception is the creation of the hive warehouse, which needs to be manually copied into the terminal from the hive_input.txt file in etl_code.
 - All of the input data can be found within the data subdirectory.
