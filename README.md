@@ -5,7 +5,7 @@ Which American cities are the best for tech jobs?
 
 ---
 
-## Subdirectories: *(Itemized description of each subdirectory)*
+## Subdirectories *(Itemized description of each subdirectory)*
 
 1. ana_code: Spark code for anaylsis
     - average the cost of rent from  july-september 2022
@@ -18,7 +18,7 @@ Which American cities are the best for tech jobs?
     - raw: fully raw data, which we have pulled from multiple sources.
     - scored: joined data that has been averaged + scored (analysis step)
 
-3. data_ingest: Contains the shell scripts we used to put data into HDFS and provide permissions for Ericsson's (evc252) directory "shared_data". All of the data for the analytic is stored in this shared directory. **Graders and Professor Malavet have accessed to this directory.**
+3. data_ingest: Contains the shell scripts we used to put data into HDFS and provide permissions for Ericsson's (evc252) directory "shared_data". All of the data for the analytic is stored in this shared directory. **Graders and Professor Malavet have access to this directory.**
 
 4. etl_code: MapReduce and Spark code for cleaning the income/weather/rent data, and the shell scripts to go along with them. Also included are the commands used to create our hive tables.
     - ericsson: clean the rent data and merge the different datasets together into our final joined dataset
@@ -42,8 +42,33 @@ We have tried to make running the code as simple as possible by making use of sh
  The exception is the creation of the hive warehouse, which needs to be manually copied into the terminal from the hive_input.txt file in etl_code.
     - All of the input data can be found within the data subdirectory.
 
-**To run the analytic, simply run ./run.sh**
+### To run the analytic
+
+1. Clone this repository in your root folder in peel
+2. ./run.sh
 
 sj3549 and adm209 have been granted read, write and execute permissions to:
-    - the HDFS directory **/user/evc252/shared_data**
-    - all of the shell scripts 
+- the HDFS directory **/user/evc252/shared_data**
+- all of the shell scripts 
+
+### To find the ouput of each directory
+
+#### data will be located **both** in HDFS and locally for easy access
+
+- Raw data:
+    * HDFS: /user/evc252/shared_data/raw
+    * Local: ~/Top-Towns-To-Take-Over-Tech/data/raw
+
+- ETL
+    * Cleaning:
+        * HDFS: /user/evc252/shared_data/clean
+        * Local: ~/Top-Towns-To-Take-Over-Tech/data/clean
+
+    * Joining:
+        * HDFS: /user/evc252/shared_data/joined
+        * Local: ~/Top-Towns-To-Take-Over-Tech/data/joined
+        
+- ANALYSIS
+    * HDFS: /user/evc252/shared_data/scored
+    * Local: ~/Top-Towns-To-Take-Over-Tech/data/scored
+    
