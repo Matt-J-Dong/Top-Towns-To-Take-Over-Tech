@@ -26,7 +26,7 @@ Which American cities are the best for tech jobs?
     - zhiquan: clean and process the weather data
 
 5. profiling_code: code for profiling, such as counting the number of records and checking if the city name columns are in the format of "Cityname, STATE".
-    - ericsson: N/A
+    - ericsson: N/A (Lots of key work elsewhere such as creating the tableau visualizations)
     - matthew: Contains code that counts the number of records in the raw income and geographic data. Also contains the queries used to query the hive table in a script. (The Hive scripts are not run with the rest of the scripts in the main run script, they must be run separately after logging into beeline/hive)
     - zhiquan: Contains code that checks if the city name columns are in the format of "Cityname, STATE".
 
@@ -49,26 +49,25 @@ We have tried to make running the code as simple as possible by making use of sh
 
 sj3549 and adm209 have been granted read, write and execute permissions to:
 - the HDFS directory **/user/evc252/shared_data**
-- all of the shell scripts 
+- all of the shell scripts
 
 ### To find the ouput of each directory
 
 #### data will be located **both** in HDFS and locally for easy access
 
 - Raw data:
-    * HDFS: /user/evc252/shared_data/raw
-    * Local: ~/Top-Towns-To-Take-Over-Tech/data/raw
+    - HDFS: /user/evc252/shared_data/raw
+    - Local: ~/Top-Towns-To-Take-Over-Tech/data/raw
 
-- ETL
-    * Cleaning:
-        * HDFS: /user/evc252/shared_data/clean
-        * Local: ~/Top-Towns-To-Take-Over-Tech/data/clean
+- ETL:
+    - Cleaning:
+        - HDFS: /user/evc252/shared_data/clean
+        - Local: ~/Top-Towns-To-Take-Over-Tech/data/clean
 
-    * Joining:
-        * HDFS: /user/evc252/shared_data/joined
-        * Local: ~/Top-Towns-To-Take-Over-Tech/data/joined
-        
-- ANALYSIS
-    * HDFS: /user/evc252/shared_data/scored
-    * Local: ~/Top-Towns-To-Take-Over-Tech/data/scored
-    
+    - Joining:
+        - HDFS: /user/evc252/shared_data/joined
+        - Local: ~/Top-Towns-To-Take-Over-Tech/data/joined
+
+- Analysis:
+    - HDFS: /user/evc252/shared_data/scored
+    - Local: ~/Top-Towns-To-Take-Over-Tech/data/scored
