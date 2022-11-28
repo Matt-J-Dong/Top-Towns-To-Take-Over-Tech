@@ -32,3 +32,4 @@ hdfs dfs -rm -r /user/evc252/shared_data/spark_output/recs_geo
 #
 # copy to local
 hdfs dfs -copyToLocal /user/evc252/shared_data/raw/recs_geo.csv ~/Top-Towns-To-Take-Over-Tech/data/raw
+hdfs dfs -cat /user/evc252/shared_data/raw/recs_geo.csv

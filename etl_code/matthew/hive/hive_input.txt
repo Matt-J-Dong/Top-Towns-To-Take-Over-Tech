@@ -1,5 +1,0 @@
-CREATE EXTERNAL TABLE allData(rank INTEGER, city STRING, state STRING, income INTEGER, good_days INTEGER, rent INTEGER, lat FLOAT, lng FLOAT)
-COMMENT 'hive warehouse'
-ROW FORMAT DELIMITED FIELDS TERMINATED BY ',' ESCAPED BY '\\' STORED AS TEXTFILE
-LOCATION '/user/mjd9571/hiveData'
-TBLPROPERTIES ('skip.header.line.count'='1');

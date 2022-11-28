@@ -1,0 +1,11 @@
+DROP TABLE IF EXISTS allData;
+CREATE EXTERNAL TABLE allData(rank INTEGER, city STRING, state STRING, income INTEGER, good_days INTEGER, rent INTEGER, lat FLOAT, lng FLOAT)
+COMMENT 'hive warehouse'
+ROW FORMAT DELIMITED FIELDS TERMINATED BY ',' ESCAPED BY '\\' STORED AS TEXTFILE
+LOCATION '/user/mjd9571/hiveData'
+TBLPROPERTIES ('skip.header.line.count'='1');
+
+#CREATE EXTERNAL TABLE allData(city STRING, state STRING, income INTEGER, rent_07 INTEGER, rent_08 INTEGER, rent_09 INTEGER, good_days_2020 INTEGER, good_days_2021 INTEGER, good_days_2022 INTEGER, lat FLOAT, lng FLOAT)
+#COMMENT 'hive warehouse'
+#ROW FORMAT DELIMITED FIELDS TERMINATED BY ',' ESCAPED BY '\\' STORED AS TEXTFILE
+#LOCATION '../evc252/shared_data/scored/hive';
