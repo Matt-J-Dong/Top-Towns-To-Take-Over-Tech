@@ -35,7 +35,7 @@ Which American cities are the best for tech jobs?
 7. test_code: old code that is not used in the final version of the project, sorted by person. Each subfolder contains old code, shell scripts, and data.
 ---
 
-### Running the code
+## Running the code
 
 We have tried to make running the code as simple as possible by making use of shell scripts. For each step of the analytic, there is an overriding shell script (etl.sh, ana.sh, etc.) that performs all the necessary commands to build and run the underlying MR/Spark programs.
 
