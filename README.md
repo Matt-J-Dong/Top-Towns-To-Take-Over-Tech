@@ -22,13 +22,13 @@ Which American cities are the best for tech jobs?
 
 4. etl_code: MapReduce and Spark code for cleaning the income/weather/rent data, and the shell scripts to go along with them. Also included are the commands used to create our hive tables.
     - ericsson: clean the rent data and merge the different datasets together into our final joined dataset
-    - matthew: clean the geographic data, count the number of records in both the income and geographic datasets, and the commands used to input our datasets into Hive
+    - matthew: clean the geographic data, count the number of records in both the income and geographic datasets, and the commands used to input our final scored dataset into Hive (The Hive scripts are not run with the rest of the scripts in the main run script, they must be run separately after logging into beeline/hive)
     - zhiquan: clean and process the weather data
 
-5. profiling_code: code for profiling, such as counting the number of records and _____
+5. profiling_code: code for profiling, such as counting the number of records and checking if the city name columns are in the format of "Cityname, STATE".
     - ericsson: N/A
-    - matthew: 
-    - zhiquan: 
+    - matthew: Contains code that counts the number of records in the raw income and geographic data. Also contains the queries used to query the hive table in a script. (The Hive scripts are not run with the rest of the scripts in the main run script, they must be run separately after logging into beeline/hive)
+    - zhiquan: Contains code that checks if the city name columns are in the format of "Cityname, STATE".
 
 6. screenshots: screenshots of every step of the analytic, organized by step (data_ingest/profiling/etl/ana)
 
