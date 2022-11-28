@@ -26,5 +26,5 @@ Which American cities are the best for tech jobs?
 ---
 ### Running the code:
 - The necessary building for all of the code is included within the shell scripts used to run the code.
-- We have made running the code very simple. All you need to do is go into the first level subdirectories and use the run shell scripts located in each of them.
+- We have made running the code very simple. All you need to do is run run.sh located in the main directory.
 - All of the input data can be found within the data subdirectory.
