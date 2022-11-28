@@ -1,6 +1,7 @@
 # ********************************************************
 #   -- Analysis: Assigning a score 0-100 to each city --
 # ********************************************************
+#
 # delete directory at initial output location (might not have permission)
 hdfs dfs -rm -r /user/evc252/shared_data/spark_output/scored
 # delete directory from final location
