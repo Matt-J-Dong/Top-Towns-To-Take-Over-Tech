@@ -9,10 +9,12 @@ chmod +x ./**/*.sh
 #
 #
 # data ingest
-echo "data ingest"
+echo ""
+echo "******************** DATA INGEST ********************"
+echo ""
 # *** ONLY NEEDS TO BE RUN ONCE ***
 # ./data_ingest/set_permissions.sh
-# ./data_ingest/upload_raw_data_to_hdfs.sh
+./data_ingest/upload_raw_data_to_hdfs.sh
 #
 #
 # profiling
@@ -33,3 +35,4 @@ echo ""
 echo "******************** ANALYSIS ********************"
 echo ""
 ./ana_code/ana.sh
+echo "******************** FINISHED :D ********************"
