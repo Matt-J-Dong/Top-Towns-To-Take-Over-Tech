@@ -14,11 +14,13 @@ echo "data ingest"
 echo ""
 echo "******************** ETL ********************"
 echo ""
+chmod +x ./etl_code/etl.sh
 ./etl_code/etl.sh
 #
 #
 # analysis
 echo ""
-echo "******************** ANAYLSIS ********************"
+echo "******************** ANALYSIS ********************"
 echo ""
+chmod +x ./ana_code/ana.sh
 ./ana_code/ana.sh
