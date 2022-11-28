@@ -12,4 +12,4 @@ hdfs dfs -rm /user/evc252/shared_data/raw/raw_geo.csv
 hdfs dfs -put data/raw/raw_rent.csv /user/evc252/shared_data/raw
 hdfs dfs -put data/raw/raw_weather.csv /user/evc252/shared_data/raw
 hdfs dfs -put data/raw/raw_income.csv /user/evc252/shared_data/raw
-hdfs dfs -put data/raw/raw_income.csv /user/evc252/shared_data/raw
+hdfs dfs -put data/raw/raw_geo.csv /user/evc252/shared_data/raw
