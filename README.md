@@ -26,8 +26,8 @@ Which American cities are the best for tech jobs?
     - zhiquan: clean and process the weather data
 
 5. profiling_code: code for profiling, such as counting the number of records and checking if the city name columns are in the format of "Cityname, STATE".
-    - ericsson: N/A (Lots of key work elsewhere such as creating the tableau visualizations)
-    - matthew: Contains code that counts the number of records in the raw income and geographic data. Also contains the queries used to query the hive table in a script. (The Hive scripts are not run with the rest of the scripts in the main run script, they must be run separately after logging into beeline/hive)
+    - ericsson: Contains code that checks if the city name columns are in the format of "Cityname, STATE".
+    - matthew: Contains code that counts the number of records in the raw income and geographic data. Also contains the queries used to query the hive table in a script. Also contains code that checks if the city name columns are in the format of "Cityname, STATE".
     - zhiquan: Contains code that checks if the city name columns are in the format of "Cityname, STATE".
 
 6. screenshots: screenshots of every step of the analytic, organized by step (data_ingest/profiling/etl/ana)
