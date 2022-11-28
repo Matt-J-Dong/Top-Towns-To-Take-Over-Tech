@@ -19,6 +19,3 @@ cd ../..
 # joining script
 chmod +x ./etl_code/ericsson/join.sh
 ./etl_code/ericsson/join.sh
-# hive creation
-chmod +x ./hive_input.sh
-./hive_input.sh

@@ -15,6 +15,12 @@ echo "data ingest"
 # ./data_ingest/upload_raw_data_to_hdfs.sh
 #
 #
+# profiling
+echo ""
+echo "******************** PROFILING ********************"
+echo ""
+chmod +x ./profiling_code/profiling.sh
+./profiling_code/profiling.sh
 # etl
 echo ""
 echo "******************** ETL ********************"
