@@ -18,7 +18,7 @@ val df = spark.read.format("csv")
 // Reference:https://stackoverflow.com/questions/54607919/how-does-spark-interprets-type-of-a-column-in-reduce
 println("count before filter by city name", df.count())
 val df0 = df.filter(col("city").rlike("[a-zA-Z ]*, [A-Z]*"))
-println("count after filter by name", df0.count())
+println("count after filter by city name", df0.count())
 
 
-//System.exit(0);
+System.exit(0);

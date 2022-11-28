@@ -18,7 +18,7 @@ val df = spark.read.format("csv")
 
 println("count before filter by city name", df.count())
 val df0 = df.filter(col("RegionName").rlike("[a-zA-Z ]*, [A-Z]*"))
-println("count after filter by name", df0.count())
+println("count after filter by city name", df0.count())
 
 
-//System.exit(0);
+System.exit(0);
