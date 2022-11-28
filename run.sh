@@ -3,6 +3,11 @@
 # ****************************************************
 #
 #
+# give execution privileges to everybody for shell scripts
+chmod +x run.sh
+chmod +x ./**/*.sh
+#
+#
 # data ingest
 echo "data ingest"
 # *** ONLY NEEDS TO BE RUN ONCE ***
