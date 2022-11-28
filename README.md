@@ -51,7 +51,7 @@ sj3549 and adm209 have been granted read, write and execute permissions to:
 - the HDFS directory **/user/evc252/shared_data**
 - all of the shell scripts
 
-### To find the ouput of each directory
+### To find the output of each directory
 
 #### data will be located **both** in HDFS and locally for easy access
 
