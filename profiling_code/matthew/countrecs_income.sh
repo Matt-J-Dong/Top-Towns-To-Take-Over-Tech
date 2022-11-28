@@ -30,6 +30,6 @@ hdfs dfs -mv /user/evc252/shared_data/spark_output/recs_income/part-r-00000 /use
 # make sure temp output directory is deleted by same user
 hdfs dfs -rm -r /user/evc252/shared_data/spark_output/recs_income
 #
-# copy to local
-hdfs dfs -copyToLocal /user/evc252/shared_data/raw/recs_income.csv ~/Top-Towns-To-Take-Over-Tech/data/raw
+# show the result
+echo "Income records: "
 hdfs dfs -cat /user/evc252/shared_data/raw/recs_income.csv

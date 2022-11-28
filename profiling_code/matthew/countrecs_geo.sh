@@ -30,6 +30,6 @@ hdfs dfs -mv /user/evc252/shared_data/spark_output/recs_geo/part-r-00000 /user/e
 # make sure temp output directory is deleted by same user
 hdfs dfs -rm -r /user/evc252/shared_data/spark_output/recs_geo
 #
-# copy to local
-hdfs dfs -copyToLocal /user/evc252/shared_data/raw/recs_geo.csv ~/Top-Towns-To-Take-Over-Tech/data/raw
+# show the results for geo
+echo "Geo records: "
 hdfs dfs -cat /user/evc252/shared_data/raw/recs_geo.csv
