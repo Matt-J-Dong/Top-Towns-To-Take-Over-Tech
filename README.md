@@ -1,7 +1,7 @@
 # Top-Towns-To-Take-Over-Tech
 Which American cities are the best for tech jobs?
 ![Our diagram showcasing our pipelines and processes](diagram.png)
-![Our visualization with heatmap and bar graphs](visualization.png)
+![Our visualization with heatmap and bar graphs](viz.png)
 **Jira board link**: <https://big-data-project.atlassian.net/jira/software/projects/BDP/boards/1>
 
 ---
