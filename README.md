@@ -1,7 +1,7 @@
 # Top-Towns-To-Take-Over-Tech
 Which American cities are the best for tech jobs?
 ![Our diagram showcasing our pipelines and processes](diagram.png)
-![Our visualization with heatmap and bar graphs](visualization.png)
+![Our visualization with heatmap and bar graphs](viz.png)
 **Jira board link**: <https://big-data-project.atlassian.net/jira/software/projects/BDP/boards/1>
 
 ---
@@ -46,8 +46,9 @@ We have tried to make running the code as simple as possible by making use of sh
 ### To run the analytic
 
 1. Clone this repository in your root folder in peel
-2. chmod +x run.sh
-3. ./run.sh
+2. Go into the respository
+3. chmod +x run.sh
+4. ./run.sh
 
 sj3549 and adm209 have been granted read, write and execute permissions to:
 - the HDFS directory **/user/evc252/shared_data**
