@@ -39,7 +39,7 @@ Which American cities are the best for tech jobs?
 
 We have tried to make running the code as simple as possible by making use of shell scripts. For each step of the analytic, there is an overriding shell script (etl.sh, ana.sh, etc.) that performs all the necessary commands to build and run the underlying MR/Spark programs.
 
- The exception is the creation and querying of the hive warehouse, which needs to be manually copied into the terminal from the hive_input.sh/matthew file in etl_code and the hive_queries.sh file in profiling_code/matthew
+ The exception is the creation and querying of the hive warehouse, which needs to be manually copied into the terminal from the hive_input.sh file in etl_code/matthew and the hive_queries.sh file in profiling_code/matthew
     - The input data can be found at data/scored/hive/hiveData.csv
 
 ### To run the analytic
