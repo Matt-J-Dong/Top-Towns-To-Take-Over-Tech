@@ -46,7 +46,8 @@ We have tried to make running the code as simple as possible by making use of sh
 ### To run the analytic
 
 1. Clone this repository in your root folder in peel
-2. ./run.sh
+2. chmod +x run.sh
+3. ./run.sh
 
 sj3549 and adm209 have been granted read, write and execute permissions to:
 - the HDFS directory **/user/evc252/shared_data**
