@@ -3,8 +3,9 @@ import scala.util.matching.Regex
 import scala.util.Try
 import org.apache.spark.sql.functions._
 
-
-println("Profiling the raw data")
+println()
+println("PROFILING THE RAW INCOME DATA")
+println("*******************************************************************************")
 
 val df = spark.read.format("csv")
 .option("inferSchema", true)
