@@ -19,8 +19,7 @@ Which American cities are the best for tech jobs?
     - raw: fully raw data, which we have pulled from multiple sources.
     - scored: joined data that has been averaged + scored (analysis step)
 
-3. data_ingest: Contains the shell scripts we used to put data into HDFS and provide permissions for Ericsson's (evc252) directory "shared_data". All of the data for the analytic is stored in this shared directory. **Graders and Professor Malavet have access to this directory.**
-
+3. data_ingest: Contains the shell scripts we used to put data into HDFS and provide permissions for Ericsson's (evc252) directory "shared_data". All of the data for the analytic is stored in this shared directory.
 4. etl_code: MapReduce and Spark code for cleaning the income/weather/rent data, and the shell scripts to go along with them. Also included are the commands used to create our hive tables.
     - ericsson: clean the rent data and merge the different datasets together into our final joined dataset
     - matthew: clean the geographic data, count the number of records in both the income and geographic datasets, and the commands used to input our final scored dataset into Hive (The Hive scripts are not run with the rest of the scripts in the main run script, they must be run separately after logging into beeline/hive)
